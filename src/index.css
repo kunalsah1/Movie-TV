@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(17, 16, 16);
+  color: white;
+}
+
+
+
+.container-fluid {
+  position: fixed;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+
+.nav-link {
+  color: white;
+}
+
+
+.movie-container {
+  margin-top: 50px;
+}
+
+.cont2 {
+  overflow-x: auto;
+}
+
+.cont2::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+
+h1 {
+  margin: 16px 20px;
+}
+
+.movie {
+  display: flex;
+  padding: 13px 0;
+  margin: 0 10px;
+}
+
+.tv {
+  display: flex;
+  padding: 13px 0;
+  margin: 0 10px;
+}
+
+.cards {
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.cards img {
+  border-radius: 10px;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  height: 560px;
+  object-fit: cover;
+  margin-top: 50px;
+
+}
+
+
+
+.navbar-brand img {
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+
+.all-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 20px;
+  margin-left: 100px;
+
+
+}
+
+
+.all-cards {
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.all-cards img {
+  border-radius: 10px;
+}
+
+.all-cards:hover {
+  transform: scale(1.05);
+}
+
+.trending h1 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
